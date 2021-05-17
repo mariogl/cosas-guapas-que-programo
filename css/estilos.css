@@ -1,0 +1,50 @@
+body {
+  font-family: Montserrat;
+  color: green;
+}
+h1 {
+  font-family: Montserrat, sans-serif;
+  color: red;
+}
+h2 {
+  color: violet;
+}
+h2.importante {
+  color: yellow;
+}
+.navegacion-principal {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100px;
+  padding: 0 10px;
+  border-bottom: 2px dashed blue;
+}
+.navegacion-principal li {
+  display: inline-block;
+}
+.navegacion-principal a {
+  color: #060;
+  font-size: 16px;
+}
+h1 {
+  color: red;
+}
+p {
+  border: 2px solid green;
+}
+@media (min-width: 800px) {
+  p {
+    border: 2px solid red;
+  }
+}
+@media (min-width: 1000px) {
+  p {
+    border: 2px solid pink;
+  }
+}
+@media (orientation: portrait) {
+  p {
+    font-size: 4rem;
+  }
+}
